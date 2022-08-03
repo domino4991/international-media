@@ -1,0 +1,442 @@
+* {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  /* .header {
+    
+  
+  } */
+  
+  .header__item {
+    width: 100%;
+    height: 130vh;
+    background: url(../Image/fons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .lang {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  
+    gap: 7px;
+  }
+ .dabydi {
+  display: flex;
+  gap: 39px;
+  align-items: center;
+ }
+
+  .eng {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  
+    color: #ffffff;
+  }
+  .title__real {
+    margin: 90px 155px;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+  }
+  .title__image {
+    width: 27.5313vw;
+  }
+  .title__h1 {
+    font-family: "Roboto Serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.625vw;
+    line-height: 6.5625vw;
+    color: #ededed;
+  }
+  .title__p {
+    font-weight: 200;
+    font-size: 3vw;
+    line-height: 3.6vw;
+    color: #ededed;
+    margin: 0;
+  }
+  
+  .Linia {
+    width: 30%;
+  }
+  .main {
+    position: relative;
+  }
+  .main__item {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+  }
+  
+  .main__h1 {
+    font-family: "Roboto Serif";
+    font-size: 1.8125rem;
+    line-height: 3.3125rem;
+    color: #0f0b3e;
+  }
+  .main__categ {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 130px;
+  }
+  .main__img {
+    width: 35.25rem;
+  
+    height: 20.1875rem;
+    background: url(../Image/mainsell.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .main__img1 {
+    width: 35.25rem;
+    height: 20.1875rem;
+    background: url(../Image/mainexport.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__img2 {
+    width: 35.25rem;
+    height: 20.1875rem;
+    background: url(../Image/mainimport.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__img3 {
+    width: 35.25rem;
+    height: 20.1875rem;
+    background: url(../Image/mainproviz.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__img4 {
+    width: 35.25rem;
+    height: 20.1875rem;
+    background: url(../Image/mainselect.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__img5 {
+    width: 35.25rem;
+    height: 20.1875rem;
+    background: url(../Image/maintrans.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__img6 {
+    width: 35.25rem;
+    height: 20.1875rem;
+    background: url(../Image/maincargo.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__img7 {
+    width: 35.25rem;
+    height: 20.1875rem;
+    background: url(../Image/mainkyrgyz.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main__h2 {
+    font-family: "Roboto Serif";
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.5625rem;
+    color: #d3cfff;
+    text-align: center;
+    width: 500px;
+    position: relative;
+  }
+  
+  .main__h21 {
+    font-family: "Roboto Serif";
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.5625rem;
+    color: #d3cfff;
+    text-align: center;
+    max-width: 350px;
+  }
+  
+  .main__h22 {
+    font-family: "Roboto Serif";
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.5625rem;
+    color: #d3cfff;
+    text-align: center;
+    max-width: 410px;
+  }
+  
+  .main__h23 {
+    font-family: "Roboto Serif";
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.5625rem;
+    color: #d3cfff;
+    text-align: center;
+    max-width: 480px;
+  }
+  
+  .main__about {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+   }
+   .Linia1 {
+    width: 31.3%;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+  }
+  .about__text{
+    max-width: 1500px;
+  text-align: center;
+  padding: 12px;
+    
+  }
+  .width {
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+  
+    line-height: 3.3125rem;
+    text-align: center;
+    color: #15132F;
+  }
+  
+  .img__logo1 {
+    margin: 20px 0;
+  }
+  
+  
+  
+  
+  .main__pol {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+   }
+   .bleat {
+    display: flex;
+    justify-content: center;
+    padding: 0px 12px;
+  
+   }
+   .width1 {
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 53px;
+  width: 1463px;
+  text-align: center;
+   }
+  
+   .width2 {
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 53px;
+    width: 1000px;
+  text-align: center;
+   }
+  
+  
+  
+  @media screen and (max-width: 1024px) {
+    .main__categ {
+      gap: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .title__real {
+      margin: 90px 0 80px 0;
+    }
+    .header__item {
+      width: 100%;
+      height: 60vh;
+      background: url(../Image/fons.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    .title {
+      gap: 50px;
+    }
+  
+    .ppp {
+      display: none;
+    }
+    .d {
+      margin: 50px 20px;
+    }
+  }
+  .mail__btn {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 15px 28px;
+  gap: 10px;
+  font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  cursor: pointer;
+  color: #FFFFFF;
+  border: none;
+  width: 385px;
+  height: 86px;
+   
+  background:#2d5fd4;
+  ;
+  
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 425px) {
+    .header__item {
+      height: 40vh;
+    }
+    .d {
+      margin: 20px 20px;
+    }
+    .btn{
+      width: 285px;
+  height: 46px;
+    }
+    .main__h2 {
+      font-family: "Roboto Serif";
+      font-weight: 300;
+      font-size: 1.3rem;
+      line-height: 2.5625rem;
+      color: #d3cfff;
+      text-align: center;
+      width: 300px;
+      position: relative;
+    }
+    .width1 {
+      font-size: 5.8125vw;
+      line-height: 2.3125rem;
+     }
+    .width {
+      font-size: 5.8125vw;
+      line-height: 2.3125rem;
+    }
+    .width2 {
+      font-size: 5.8125vw;
+      line-height: 2.3125rem;
+    }
+  }
+  
+  .whats__color {
+    color: #0DA145;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .mail__color {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+  
+    color: #0F0B3E;
+  }
+  
+  .contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    height: 150px;
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: 930px){
+  .contacts {
+    gap:20px
+  }
+    @media screen and (max-width: 436px){
+      .whats__color {
+        font-size: 4vw;
+  
+      }
+   
+      }
+    .img__contact {
+      width: 12vw;
+    }
+  }
+  .contacts__div {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  
