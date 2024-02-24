@@ -1,5 +1,5 @@
 import React from "react";
-import "./Russian.css";
+import s from "./Russian.module.scss";
 import Logo from "../Image/logo.png";
 import Eng from "../Image/eng.svg";
 import Rus from "../Image/rus.svg";
@@ -14,35 +14,35 @@ import { Engg, Russ } from "../path";
 const Russian = () => {
   return (
     <>
-      <div className="header">
-        <div className="header__item">
-          <div className="lang">
-            <div className="d">
-            <Link className="eng" to={Engg}>
-                <div className="dabydi">
-                  <p className="ppp">Английский</p>
-                  <img src={Eng} alt="" />
+      <div className={s.header}>
+        <div className={s.header__item}>
+          <div className={s.lang}>
+            <div className={s.d}>
+              <Link className={s.eng} to={Engg}>
+                <div className={s.dabydi}>
+                  <p className={s.ppp}>Английский</p>
+                  <img className={s.imgeng} src={Eng} alt="" />
                 </div>
               </Link>
-              <Link className="eng" to={Russ}>
-                <div className="dabydi">
-                  <p className="ppp">Русский</p>
+              <Link className={s.eng} to={Russ}>
+                <div className={s.dabydi}>
+                  <p className={s.ppp}>Русский</p>
                   <img src={Rus} alt="" />
                 </div>
               </Link>
             </div>
           </div>
-          <div className="title__real">
-            <div className="title">
-              <img className="title__image" src={Logo} alt="" />
-              <h1 className="title__h1">International Media</h1>
+          <div className={s.title__real}>
+            <div className={s.title}>
+              <img className={s.title__image}src={Logo} alt="" />
+              <h1 className={s.title__h1}>International Media</h1>
             </div>
-            <p className="title__p">
-              International медия уже более 10 лет успешно поставляет
+            <p className={s.title__p}>
+              International Media уже более 10 лет успешно поставляет
               Качественное и надёжное оборудование От лучших мировых
               производителей как ближнего так дальнего зарубежья.
             </p>
-            <p className="title__p">
+            <p className={s.title__p}>
               Деятельность компании не ограничивается поставкой оборудования
               компания также предоставляет полный комплекс логистических услуг.
             </p>
@@ -50,87 +50,87 @@ const Russian = () => {
         </div>
       </div>
 
-      <div className="main">
-        <div className="main__item">
-          <img src={Linia} alt="" className="Linia" />
-          <h1 className="main__h1">Каталог услуг</h1>
-          <img src={Linia} alt="" className="Linia" />
+      <div className={s.main}>
+        <div className={s.main__item}>
+          <img src={Linia} alt="" className={s.Linia} />
+          <h1 className={s.main__h1}>Каталог услуг</h1>
+          <img src={Linia} alt="" className={s.Linia} />
         </div>
-        <div className="main__categ">
-          <div className="main__img">
-            <h2 className="main__h2">
+        <div className={s.main__categ}>
+          <div className={s.main__img}>
+            <h2 className={s.main__h2}>
               Оптовая и розничная торговля широким ассортиментом товаров
             </h2>
           </div>
-          <div className="main__img1">
-            <h2 className="main__h21">Экспорт широким ассортиментом товаров</h2>
-          </div>{" "}
-          <div className="main__img2">
-            <h2 className="main__h21">Импорт широким ассортиментом товаров</h2>
-          </div>{" "}
-          <div className="main__img3">
-            <h2 className="main__h22">
+          <div className={s.main__img1}>
+            <h2 className={s.main__h21}>Экспорт широким ассортиментом товаров</h2>
+          </div>
+          <div className={s.main__img2}>
+            <h2 className={s.main__h21}>Импорт широким ассортиментом товаров</h2>
+          </div>
+          <div className={s.main__img3}>
+            <h2 className={s.main__h22}>
               Оказание правовых услуг физическим и юредическим лицам
             </h2>
-          </div>{" "}
-          <div className="main__img4">
-            <h2 className="main__h21">
+          </div>
+          <div className={s.main__img4}>
+            <h2 className={s.main__h21}>
               Реализация авто, автозапчастей и автопринадлежностей
             </h2>
-          </div>{" "}
-          <div className="main__img5">
-            <h2 className="main__h22">
+          </div>
+          <div className={s.main__img5}>
+            <h2 className={s.main__h22}>
               Оказание транспортных услуг, в том числе автоперевозка автомобилей
             </h2>
-          </div>{" "}
-          <div className="main__img6">
-            <h2 className="main__h22">
+          </div>
+          <div className={s.main__img6}>
+            <h2 className={s.main__h22}>
               Оказание услуг по консолидированным перевозкам грузов
             </h2>
-          </div>{" "}
-          <div className="main__img7">
-            <h2 className="main__h23">
+          </div>
+          <div className={s.main__img7}>
+            <h2 className={s.main__h23}>
               И другие виды деятельности, не запрещенные действующим
               законодательством Кыргызской Республики
             </h2>
           </div>
         </div>
       </div>
-      <div className="main__about">
-        <img src={Linia} alt="" className="Linia1" />
-        <h1 className="main__h1">О нас</h1>
-        <img src={Linia} alt="" className="Linia1" />
+      <div className={s.main__about}>
+        <img src={Linia} alt="" className={s.Linia1} />
+        <h1 className={s.main__O}>О нас</h1>
+        <img src={Linia} alt="" className={s.Linia1} />
       </div>
-      <div className="about">
-        <div className="about__text">
-          <p className="about__p__p">
-            ОсОО International медия основано феврале 2010 г. Компания
+      <div className={s.about}>
+        <div className={s.about__text}>
+          <p className={s.width}>
+            ОсОО International Media основано феврале 2010 г. Компания
             Осуществляла поставки широких ассортиментов товаров на территорию
             кыргызской республики. Также успешно импортировала товары из
             ближнего и дальнего зарубежья на территорию Кыргызстана. На сегодня
             компания расширила свою коммерческую деятельность не только в
             торговле но и логистических услугах Широкого профиля
           </p>
-          <p className="about__p__p">
+          <p className={s.width}>
             Оплата и доставка: Наша компания работает по безналичному расчёту в
             соответствии с оговоренными условиями В рамках заключённых договоров
             с клиентами
           </p>
-          <p className="about__p__p">
+          <p className={s.width}>
             Доставка, сроки её выполнения и стоимость оговаривается отдельно с
             каждым клиентом в соответствии с условиями выполнения поставки или
             услуги Отдельным договором
           </p>
-          <img src={Logo1} alt="" className="img__logo1" />
+          <img src={Logo1} alt="" className={s.img__logo1} />
         </div>
       </div>
-      <div className="main__pol">
-        <img src={Linia} alt="" className="Linia1" />
-        <h1 className="main__h1">Политика в области качества</h1>
-        <img src={Linia} alt="" className="Linia1" />
+      <div className={s.main__pol}>
+        <img src={Linia} alt="" className={s.Linia1} />
+        <h1 className={s.main__Pol}>Политика в области качества</h1>
+        <img src={Linia} alt="" className={s.Linia1} />
       </div>
-      <div className="bleat">
-        <p className="width1">
+      <div className={s.bleat}>
+        <p className={s.width1}>
           Профилем нашей компании является обеспечение постоянного
           удовлетворения потребностей наших клиентов. При этом мы повышаем нашу
           конкурентноспособность, Укрепляем отношения с клиентом, вырабатываем
@@ -143,13 +143,13 @@ const Russian = () => {
           потребностей наших клиентов.
         </p>
       </div>
-      <div className="main__pol">
-        <img src={Linia} alt="" className="Linia1" />
-        <h1 className="main__h1">Сотрудничество</h1>
-        <img src={Linia} alt="" className="Linia1" />
+      <div className={s.main__pol}>
+        <img src={Linia} alt="" className={s.Linia1} />
+        <h1 className={s.main__h1}>Сотрудничество</h1>
+        <img src={Linia} alt="" className={s.Linia1} />
       </div>
-      <div className="bleat">
-        <p className="width2">
+      <div className={s.bleat}>
+        <p className={s.width2}>
           Наша компания предлагает взаимовыгодное сотрудничество поставщикам
           оборудования широкого профиля и мы уверены что наша совместная работа
           послужит максимальному удовлетворению потребностей клиентов в
@@ -158,24 +158,24 @@ const Russian = () => {
           ниже. Обсудим условия сотрудничества.
         </p>
       </div>
-      <div className="main__pol">
-        <img src={Linia} alt="" className="Linia1" />
-        <h1 className="main__h1">Обратная связь</h1>
-        <img src={Linia} alt="" className="Linia1" />
+      <div className={s.main__pol}>
+        <img src={Linia} alt="" className={s.Linia1}/>
+        <h1 className={s.main__h1}>Обратная связь</h1>
+        <img src={Linia} alt="" className={s.Linia1} />
       </div>
-      <div className="bleat">
-        <p className="width2">Напишите нам и мы обязательно с вами свяжемся!</p>
+      <div className={s.bleat}>
+        <p className={s.width2}>Напишите нам и мы обязательно с вами свяжемся!</p>
       </div>
 
-      <div className="contacts">
-        <div className="contacts__div">
-          <img src={whats} alt="" className="img__contact" />
-          <p className="whats__color">+996558278525</p>
+      <div className={s.contacts}>
+        <div className={s.contacts__div}>
+          <img src={whats} alt="" className={s.img__contact} />
+          <p className={s.whats__color}>+996550047991</p>
         </div>
-        <div className="contacts__div">
-          <img src={mail} alt="" className="img__contact" />
-          <p className="whats__color mail__color">
-            international.media@gmail.com
+        <div className={s.contacts__div}>
+          <img src={mail} alt="" className={s.img__contact} />
+          <p className={`${s.whats__color} ${s.mail__color}`}>
+            intrenational.media@gmail.com
           </p>
         </div>
       </div>
